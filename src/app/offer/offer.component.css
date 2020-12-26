@@ -1,0 +1,18 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  margin: 5px;
+}
+
+tr td:first-child {
+  font-weight: bold;
+}
+
+th {
+  font-size: large;
+}

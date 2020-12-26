@@ -1,0 +1,3 @@
+<select name="miselect" [(ngModel)]="seleccionado" (click)="onChange()">
+  <option [value]="item" *ngFor="let item of lista">{{ item }}</option>
+</select>

@@ -1,0 +1,10 @@
+<app-select-order (orderChangeHandler)="orderChangeHandler($event)"></app-select-order>
+<div>Orden: {{ orden }}</div>
+
+<div>
+  <ul>
+    <li *ngFor="let offer of offers">
+      <app-offer [offer]="offer"></app-offer>
+    </li>
+  </ul>
+</div>
