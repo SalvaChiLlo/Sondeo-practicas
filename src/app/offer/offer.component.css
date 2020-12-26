@@ -1,18 +1,35 @@
-table,
 th,
 td {
-  border: 1px solid black;
   border-collapse: collapse;
-}
-
-table {
-  margin: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #bebebe;
 }
 
 tr td:first-child {
   font-weight: bold;
+  background-color: #f4b522;
+  color: black;
 }
 
 th {
   font-size: large;
+  background-color: #4285f4;
+  color: white;
+}
+
+tr td:last-child {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+div {
+  background-color: #db4437;
+  margin: 10px 0px 10px 0px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
 }

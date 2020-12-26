@@ -6,8 +6,18 @@ ul {
   padding: 0;
 }
 
-div {
+.container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  width: 85%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }

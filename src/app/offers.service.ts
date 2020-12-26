@@ -8,7 +8,7 @@ import { Offer } from './offer';
   providedIn: 'root',
 })
 export class OffersService {
-  offersUrl = 'http://127.0.0.1:3000/';
+  offersUrl = 'http://192.168.0.105:3000/';
 
   constructor(private http: HttpClient) {}
 

@@ -19,6 +19,7 @@ export class OfferListComponent implements OnInit {
   setOffers(): void {
     this.offerService.getOffers().subscribe((offers) => {
       this.offers = offers;
+      this.sort();
     });
   }
 
