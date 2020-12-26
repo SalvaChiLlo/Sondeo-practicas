@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "sondeo-practicas"
+  "defaultProject": "sondeo-practicas",
+  "cli": {
+    "analytics": false
+  }
 }
