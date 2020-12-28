@@ -8,6 +8,7 @@ import { OfferListComponent } from './offer-list/offer-list.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SelectOrderComponent } from './select-order/select-order.component';
 import { FormsModule } from '@angular/forms';
+import { AvgRemPerCompanyComponent } from './avg-rem-per-company/avg-rem-per-company.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { FormsModule } from '@angular/forms';
     OfferComponent,
     OfferListComponent,
     SelectOrderComponent,
+    AvgRemPerCompanyComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
