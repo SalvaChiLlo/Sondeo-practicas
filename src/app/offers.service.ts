@@ -8,7 +8,7 @@ import { Offer } from './offer';
   providedIn: 'root',
 })
 export class OffersService {
-  offersUrl = 'http://192.168.0.105:3000/';
+  offersUrl = 'https://murmuring-woodland-76280.herokuapp.com/';
 
   constructor(private http: HttpClient) {}
 

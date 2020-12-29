@@ -7,6 +7,10 @@ const routes: Routes = [
   { path: 'offersList', component: OfferListComponent },
   { path: 'remByCompany', component: AvgRemPerCompanyComponent },
   { path: '', redirectTo: 'offersList', pathMatch: 'full' },
+  {
+    path: '**',
+    component: /*CAMBIAR A PAGINA NO ENCONTRADA*/ OfferListComponent,
+  },
 ];
 
 @NgModule({

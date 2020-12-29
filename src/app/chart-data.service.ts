@@ -10,6 +10,6 @@ export class ChartDataService {
   constructor(private http: HttpClient) {}
 
   avgRemPerCompanyData(): Observable<Remuneracion[]> {
-    return this.http.get<Remuneracion[]>('http://192.168.0.105:3000/remuneracion');
+    return this.http.get<Remuneracion[]>('https://murmuring-woodland-76280.herokuapp.com/remuneracion');
   }
 }

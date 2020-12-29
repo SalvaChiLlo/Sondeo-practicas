@@ -43,39 +43,15 @@ export class OfferListComponent implements OnInit {
         this.offers.sort((of1: Offer, of2: Offer): number => {
           console.log(
             // tslint:disable-next-line: radix
-            parseInt(
-              of1.remuneracion
-                .slice(1, -1)
-                .replace('.', '*')
-                .replace(',', '')
-                .replace('*', ',')
-            ),
+            parseInt(of1.remuneracion),
             // tslint:disable-next-line: radix
-            parseInt(
-              of2.remuneracion
-                .slice(1, -1)
-                .replace('.', '*')
-                .replace(',', '')
-                .replace('*', ',')
-            )
+            parseInt(of2.remuneracion)
           );
           return (
             // tslint:disable-next-line: radix
-            parseInt(
-              of2.remuneracion
-                .slice(1, -1)
-                .replace('.', '*')
-                .replace(',', '')
-                .replace('*', ',')
-            ) -
+            parseInt(of2.remuneracion) -
             // tslint:disable-next-line: radix
-            parseInt(
-              of1.remuneracion
-                .slice(1, -1)
-                .replace('.', '*')
-                .replace(',', '')
-                .replace('*', ',')
-            )
+            parseInt(of1.remuneracion)
           );
         });
         break;
