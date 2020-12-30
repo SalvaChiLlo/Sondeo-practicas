@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/sondeo-practicas",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
