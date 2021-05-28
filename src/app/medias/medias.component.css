@@ -1,0 +1,23 @@
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  border: 1px solid black;
+  margin: 10px;
+  width: 90px;
+  height: 70px;
+  text-align: center;
+}
+
+.container h1, .container h4 {
+  margin: 0;
+}
+
+.container h1 {
+  font-size: 20px;
+}

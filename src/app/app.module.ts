@@ -9,6 +9,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SelectOrderComponent } from './select-order/select-order.component';
 import { FormsModule } from '@angular/forms';
 import { AvgRemPerCompanyComponent } from './avg-rem-per-company/avg-rem-per-company.component';
+import { MediasComponent } from './medias/medias.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AvgRemPerCompanyComponent } from './avg-rem-per-company/avg-rem-per-com
     OfferListComponent,
     SelectOrderComponent,
     AvgRemPerCompanyComponent,
+    MediasComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],

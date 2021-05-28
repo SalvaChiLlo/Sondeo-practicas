@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MediasComponent } from './medias/medias.component';
+import { OffersService } from './offers.service';
 
 @Component({
   selector: 'app-root',
